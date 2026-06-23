@@ -1,6 +1,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Stickman-Studio-blue?style=for-the-badge&logo=python" alt="Stickman Studio">
+  <img src="https://img.shields.io/github/actions/workflow/status/saiedpod-bot/Stickman-Studio/ci.yml?style=for-the-badge&logo=github" alt="CI">
   <br>
   <strong>🎬 Autonomous AI Video Production Pipeline</strong>
 </p>
@@ -406,7 +407,7 @@ Topic Input
 
 ## 🎬 Sample Outputs
 
-Pre-generated example videos showing the pipeline output:
+Pre-generated example videos showing the pipeline output (also available on the [Releases page](https://github.com/saiedpod-bot/Stickman-Studio/releases)):
 
 <table>
   <tr>
