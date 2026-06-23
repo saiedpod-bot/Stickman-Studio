@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+.venv/
+venv/
+
+# Environment
+.env
+!env.example
+
+# Project artifacts
+projects/
+ready_to_upload/
+daily_plan.json
+ideas.json
+*.mp4
+*.mp3
+
+# OAuth & tokens
+client_secrets.json
+youtube_token.json
+*.pem
+
+# Scheduler state
+scheduler_state.json
+system_state.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+Thumbs.db
+.DS_Store

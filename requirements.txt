@@ -1,0 +1,18 @@
+# ---- Core Google Cloud / Vertex AI ----
+google-cloud-aiplatform>=1.71.0   # Vertex AI SDK: Gemini, Imagen, Veo
+google-genai>=0.8.0               # Unified GenAI SDK (Veo long-running ops)
+google-cloud-storage>=2.18.0      # GCS staging for Veo I/O
+google-cloud-texttospeech>=2.16.0  # TTS narration audio
+
+# ---- Configuration ----
+python-dotenv>=1.0.1              # .env credential / project loading
+
+# ---- Resilience ----
+tenacity>=8.5.0                  # exponential backoff + retry on rate limits
+
+# ---- CLI / UX ----
+click>=8.1.7                     # ergonomic CLI
+rich>=13.7.1                     # pretty logs / progress
+
+# ---- Media handling ----
+Pillow>=10.4.0                   # image validation / thumbnails
