@@ -21,6 +21,10 @@ ideas.json
 *.mp4
 *.mp3
 
+# Allow sample output videos
+!samples/
+!samples/*
+
 # OAuth & tokens
 client_secrets.json
 youtube_token.json

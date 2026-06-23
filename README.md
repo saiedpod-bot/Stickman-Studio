@@ -118,6 +118,23 @@ Topic Input
 
 ---
 
+## 🎬 Sample Outputs
+
+Pre-generated example videos showing the pipeline output:
+
+| Video | Mode | Size | Description |
+|-------|------|------|-------------|
+| [`slideshow_how_gravity_works.mp4`](samples/slideshow_how_gravity_works.mp4) | Slideshow | 2.3 MB | 3-scene explainer on gravity with Ken Burns zoom |
+| [`slideshow_how_magnets_works.mp4`](samples/slideshow_how_magnets_works.mp4) | Slideshow | 0.6 MB | 3-scene explainer on magnets with voiceover & subtitles |
+
+All samples are in `samples/` directory. Generate your own with:
+
+```bash
+python orchestrator.py "Your topic here" --video-mode slideshow
+```
+
+---
+
 ## 📊 Dashboard
 
 Launch the full GUI:
@@ -204,6 +221,7 @@ stickman_studio/
 ├── requirements.txt
 ├── .env.example → .env       # Configuration
 ├── client_secrets.json       # YouTube OAuth (user-provided)
+├── samples/                   # Pre-generated example videos
 ├── assets/
 │   └── bgm.mp3               # Optional background music
 ├── stickman_studio/
