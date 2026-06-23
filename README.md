@@ -11,12 +11,11 @@
   <a href="#pipeline">Pipeline</a> •
   <a href="#dashboard">Dashboard</a> •
   <a href="#cost-optimization">Cost Optimization</a> •
-  <a href="#youtube-automation">YouTube</a> •
   <a href="#scheduling">Scheduling</a>
 </p>
 
-<p align="center" dir="rtl">
-  <strong>🇸🇦 أنتج فيديوهات رسوم متحركة تلقائيًا بالذكاء الاصطناعي وجهاً لوجه مع النشر على يوتيوب</strong>
+<p align="center">
+  <strong>🤖 Automate AI-powered stickman animation production, from script to YouTube</strong>
 </p>
 
 ---
@@ -409,10 +408,25 @@ Topic Input
 
 Pre-generated example videos showing the pipeline output:
 
-| Video | Mode | Size | Description |
-|-------|------|------|-------------|
-| [`slideshow_how_gravity_works.mp4`](samples/slideshow_how_gravity_works.mp4) | Slideshow | 2.3 MB | 3-scene explainer on gravity with Ken Burns zoom |
-| [`slideshow_how_magnets_works.mp4`](samples/slideshow_how_magnets_works.mp4) | Slideshow | 0.6 MB | 3-scene explainer on magnets with voiceover & subtitles |
+<table>
+  <tr>
+    <th>Slideshow Mode — "How Gravity Works" (2.3 MB)</th>
+    <th>Slideshow Mode — "How Magnets Work" (0.6 MB)</th>
+  </tr>
+  <tr>
+    <td>
+      <video src="samples/slideshow_how_gravity_works.mp4" controls width="360"></video>
+    </td>
+    <td>
+      <video src="samples/slideshow_how_magnets_works.mp4" controls width="360"></video>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <em>3 scenes each — AI script (Gemini) + AI images (Imagen) + Ken Burns zoom (ffmpeg) + neural TTS (edge-tts) + subtitles (MoviePy)</em>
+    </td>
+  </tr>
+</table>
 
 All samples are in `samples/` directory. Generate your own with:
 
